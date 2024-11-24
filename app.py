@@ -138,6 +138,7 @@ def get_nick(user_id):
         return jsonify({"nick": user_nick.nick}), 200  # Nick encontrado
     else:
         return jsonify({"nick": None}), 200  # No se encuentra nick, pero se responde con 200
+    
 
 
 
